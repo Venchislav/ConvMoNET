@@ -42,5 +42,8 @@ Inspiration, code snippets, etc.
 * [Google Quick, Draw](https://quickdraw.withgoogle.com/)
 * [random parts of the code](https://stackoverflow.com/)
 
+<img src='https://uploads4.wikiart.org/images/claude-monet/haystacks-at-giverny.jpg!Large.jpg' width=40%>
+Haystacks at Giverny - Claude Monet 1884<br>
+
 # Work In Progress...
 <img src='https://media.tenor.com/ipuTozw3PXsAAAAj/pixel-cat.gif'>
