@@ -1,3 +1,6 @@
+<p align="center">
+  <img src='Media/Logo.png' alt='Logo'>
+</p>
 # ConvMoNET
 
 Pet Project for handwritten doodle classification.<br>
