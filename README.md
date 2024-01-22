@@ -31,7 +31,7 @@ It can:
 
 Venchislav
 
-ex. [@Venchislav](https://twitter.com/___Dxde___)
+ex. [@Venchislav](https://twitter.com/venchisla75545)
 
 ## Acknowledgments
 
