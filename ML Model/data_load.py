@@ -1,8 +1,8 @@
 from data_loader import categories
 import numpy as np
-from cv2 import imread
 import os
 import matplotlib.pyplot as plt
+from PIL import Image
 
 def image_data_loader():
     X = []
@@ -10,7 +10,7 @@ def image_data_loader():
 
     for category in categories:
         for file in os.listdir(f'E:/ConvMoNET/Data/{category}s'):
-            X.append(np.asarray(imread(f'E:/ConvMoNET/Data/{category}s/{file}')))
+            X.append(np.asarray(Image.open(f'E:/ConvMoNET/Data/{category}s/{file}').convert('L')))
             y.append(category)
 
     enc = {}
