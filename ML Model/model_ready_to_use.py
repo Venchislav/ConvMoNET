@@ -20,7 +20,7 @@ def create_model():
 
         layers.Flatten(),
 
-        layers.Dense(128, activation='relu'),
+        layers.Dense(256, activation='relu'),
         layers.Dropout(0.2),
         layers.Dense(64, activation='relu'),
         layers.Dropout(0.3),
