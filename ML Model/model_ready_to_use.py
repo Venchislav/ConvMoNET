@@ -3,7 +3,10 @@ from tensorflow.keras.models import Sequential
 from tensorflow.keras.losses import SparseCategoricalCrossentropy
 from tensorflow.keras.optimizers import Adam
 from data_loader import categories
-
+import numpy as np
+from PIL import Image
+import tensorflow as tf
+from data_load import dec
 
 IMG_SIZE = 28
 num_classes = len(categories)
@@ -38,4 +41,11 @@ def create_model():
 
 model = create_model()
 model.load_weights('E:\ConvMoNET\ML Model\model_saves')
-image = np.asarray(Image.open('E:/ConvMoNET/Data/bananas/4506024419524608-True.jpg').convert('L'))
+image = np.asarray(Image.open('E:/ConvMoNET/TestImages/Cat.png').convert('L'))
+image = [image]
+image = np.expand_dims(image, 3)
+image = tf.image.resize(image, (28, 28))
+print(image.shape)
+
+test_pred = model.predict(image)
+print(dec[np.argmax(test_pred)])
