@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200&display=swap');
 
 body{
     margin: 0;
@@ -57,4 +58,68 @@ body{
     font-size: 25px;
     font-family: 'Inter', sans-serif;
     font-weight: 900;
+}
+
+.more{
+    background-color: black;
+    border: solid black;
+    border-radius: 28px;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    margin-top: 10px;
+    padding: 5px 50px;
+}
+
+.more:hover{
+    background-color: white;
+    border: solid black;
+    border-radius: 28px;
+    color: black;
+    font-family: 'Inter', sans-serif;
+    margin-top: 10px;
+    padding: 5px 50px;
+    cursor: pointer;
+}
+
+.fun-fact{
+    font-weight: 200;
+    color: black;
+}
+
+
+.footer ul{
+    list-style-type: none;
+    background-color: black;
+    padding: 10px 25px;
+    margin: 0;
+    text-align: center;
+}
+
+.footer li{
+    display: inline-block;
+
+}
+
+.footer a{
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+
+    text-decoration: none;
+    width: 100px;
+    display: block;
+    padding: 5px 5px;
+    text-transform: uppercase;
+}
+
+.year{
+    color: white;
+}
+
+.bruh{
+    color: white;
 }
