@@ -1,8 +1,14 @@
-from data_loader import categories
+from MLModel.data_loader import categories
 import numpy as np
 import os
 import matplotlib.pyplot as plt
 from PIL import Image
+
+enc = {}
+dec = {}
+for i in range(len(categories)):
+    enc[categories[i]] = i
+    dec[i] = categories[i]
 
 def image_data_loader():
     X = []
@@ -13,9 +19,6 @@ def image_data_loader():
             X.append(np.asarray(Image.open(f'E:/ConvMoNET/Data/{category}s/{file}').convert('L')))
             y.append(category)
 
-    enc = {}
-    for i in range(len(categories)):
-        enc[categories[i]] = i
 
     y = list(map(lambda x: enc[x], y))
 
