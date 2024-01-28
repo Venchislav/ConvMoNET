@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="E:\ConvMoNET\static\styles\main_page.css">
-    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/main_page.css')}}">
+    <link rel="stylesheet" type="text/css" href="E:\ConvMoNET\static\styles\info_page.css">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/info_page.css')}}">
     
 <body>
     
@@ -19,17 +19,21 @@
   </div>
 
   <div class="logo-div">
-    <a href="/"><img src='{{url_for("static", filename="images/Logo.png")}}' width="15%" class="logo"></a>
-    <p>OPEN SOURCE<br>
-      NEURAL NETWORK<br>
-      WORKING WITH<br>
-      D R A W I N G S</p>
-    
+    <a href="/"><img src='{{url_for("static", filename="images/Logo.png")}}' width="15%" class="logo"></a><br>
+
     <img src='{{url_for("static", filename="images/drawing.svg")}}' width="5%"><br>
 
-    <button class="more" onclick="window.open('https://github.com/Venchislav/ConvMoNET','_blank')">Explore On <br> GitHub©</button><br>
     <h2 class="fun-fact">
-      Fun fact: Here's no fun fact ¯\_(ツ)_/¯
+        ”ConvMonet” is my Deep Learning Pet Project<br>
+        that is made for fun. Source code is available on GitHub©. <br>
+        Project uses Google Quick Draw Dataset that is also Open Source. Here’s the <a hrf="https://quickdraw.withgoogle.com/data">link</a>.<br>
+        This is my experiment with deep learning and it’s challenge for me.<br>
+        This website uses:<br>
+        Tensorflow and Keras<br>
+        Flask<br>
+        Google Quick, Draw Dataset<br>
+
+        PEACE <img src='{{url_for("static", filename="images/peace.png")}}' width=2%>
     </h2>
   </div>
 
