@@ -12,7 +12,6 @@ html, body {
   }
   
   h1 {
-    margin-top: 200px;
     display: block;
     text-align: center;
     font-size: 1.92em;
@@ -30,7 +29,7 @@ html, body {
     justify-content: center;
     background: #fff;
     width: 768px;
-    margin-top: 10px;
+    margin-bottom: 20px;
   
   }
   
@@ -104,3 +103,96 @@ html, body {
     margin-left: -32px;
     text-align: center;
   }
+
+
+.confidence{
+  font-size: 15px;
+  font-weight: 200;
+}
+
+
+.navbar ul{
+  list-style-type: none;
+  background-color: black;
+  padding: 10px 25px;
+  margin: 0;
+  text-align: center;
+}
+
+.navbar li{
+  display: inline-block;
+
+}
+
+.navbar a{
+  color: #FFF;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+
+  text-decoration: none;
+  width: 100px;
+  display: block;
+  padding: 25px 20px;
+  text-transform: uppercase;
+}
+
+.navbar a:hover{
+  background-color: white;
+  color: black
+}
+
+.logo-div{
+  margin-top: 36px;
+  text-align: center;
+}
+
+.logo{
+  height: 15%;
+  width: 15%;
+  object-fit: contain
+}
+
+.footer{
+  margin-top: 165px;
+}
+
+.footer ul{
+  list-style-type: none;
+  background-color: black;
+  padding: 10px 25px;
+  margin: 0;
+  text-align: center;
+}
+
+.footer li{
+  display: inline-block;
+
+}
+
+.footer a{
+  color: #FFF;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+
+  text-decoration: none;
+  width: 100px;
+  display: block;
+  padding: 5px 5px;
+  text-transform: uppercase;
+}
+
+.year{
+  color: white;
+}
+
+.bruh{
+  color: white;
+}
