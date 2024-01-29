@@ -27,7 +27,7 @@ function initialize() {
   context = sigCanvas.getContext("2d");
   context.strokeStyle = "#fff";
   context.lineJoin = "round";
-  context.lineWidth = 6;
+  context.lineWidth = 9;
 
   context.fillRect(0, 0, sigCanvas.width, sigCanvas.height);
 
@@ -152,8 +152,9 @@ function predictDigit(e) {
   axios.post("/guesso", {
     image
   }).then(response => {
-    var { prediction, confidence } = response.data;
+    var { prediction, possible } = response.data;
     predictionEl.textContent = prediction;
+    confidenceEl.textContent = possible
 
 
   });
