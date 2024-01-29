@@ -17,6 +17,11 @@ def main():
 def info():
     return render_template('info_page.html')
 
+@app.errorhandler(404)
+def not_found(e):
+    return render_template('not_found_page.html')
+
+
 @app.route("/guesso")
 def guesso_render():
     return render_template('guesso_page.html')
@@ -32,7 +37,7 @@ def predict_digit():
     print(np.argmax(prediction))
 
     response = { 
-        "prediction": dec[np.argmax(prediction)]
+        "prediction": dec[np.argmax(prediction)][:-1],
+        "possible": str('But it may be: \n' + ',   '.join([dec[i] for i in np.argsort(prediction)[0][::-1][:5][1:]]))
     }
-
     return jsonify(response)
