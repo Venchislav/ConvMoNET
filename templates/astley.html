@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="E:\ConvMoNET\static\styles\astley.css">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/astley.css')}}">
+    
+<body>
+    
+  <div class="navbar">
+    <ul>
+      <li><a href='/guesso'>GUESSO</a></li>
+      <li><a href='/anim3'>ANIM-3</a></li>
+      <li><a href='/generat_e'>GENERATE</a></li>
+      <li><a href='/info'>INFO</a></li>
+    </ul>
+  </div>
+
+  <div class="logo-div">
+    <a href="/"><img src='{{url_for("static", filename="images/Logo.png")}}' width="15%" class="logo"></a><br>
+
+    <img src='https://www.researchgate.net/publication/337000420/figure/fig23/AS:821166465875969@1572792750077/Dalle-M-2019-Rickroll-Digital-image.ppm' width=15% style="margin-top: 18px;">
+    <h1>Y O U ' V E     B E E N     R I C K     R O L L E D</h1><br>
+    <h3>even here...</h3>
+  </div>
+
+  <div class="footer">
+    <ul>
+      <li><p class="bruh">Venchislav</p></li>
+      <li><a href='https://twitter.com/venchisla75545'><img src='{{url_for("static", filename="images/x.svg")}}' width=25%></a></li>
+      <li><a href='https://github.com/googlecreativelab/quickdraw-dataset'><img src='{{url_for("static", filename="images/google.svg")}}' width=25%></a></li>
+      <li><h1 class="year">2024</h1></li>
+      <li><a href='https://github.com/Venchislav'><img src='{{url_for("static", filename="images/github.svg")}}' width=25%></a></li>
+      <li><a href='https://www.youtube.com/channel/UCFRGI3c4ltX-1CvnWBAnPAA'><img src='{{url_for("static", filename="images/yt.svg")}}' width=25%></a></li>
+      <li><p class="bruh">GitHub© Bozo</p></li>
+    </ul>
+  </div>
+  
+</body>
+</html>
