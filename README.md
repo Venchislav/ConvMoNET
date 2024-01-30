@@ -46,4 +46,5 @@ Inspiration, code snippets, etc.
 Haystacks at Giverny - Claude Monet 1884<br>
 
 # Work In Progress...
-<img src='https://media.tenor.com/ipuTozw3PXsAAAAj/pixel-cat.gif'>
+<img src='https://media.tenor.com/ipuTozw3PXsAAAAj/pixel-cat.gif'><br>
+<h1>Classifier works and first version of web-site is done!🎉🥳🎊</h1>
