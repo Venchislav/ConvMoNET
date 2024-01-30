@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="E:\ConvMoNET\static\styles\in_progress.css">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/in_progress.css')}}">
+    
+<body>
+    
+  <div class="navbar">
+    <ul>
+      <li><a href='/guesso'>GUESSO</a></li>
+      <li><a href='/anim3'>ANIM-3</a></li>
+      <li><a href='/generat_e'>GENERATE</a></li>
+      <li><a href='/info'>INFO</a></li>
+    </ul>
+  </div>
+
+  <div class="logo-div">
+    <a href="/"><img src='{{url_for("static", filename="images/Logo.png")}}' width="15%" class="logo"></a><br>
+
+    <img src='{{url_for("static", filename="images/bulb.svg")}}' width=8% style="margin-top: 18px;">
+    <h1>IN PROGRESS</h1><br>
+    <h3>magic will be here a bit later</h3>
+    <button class="more" style="margin-bottom: 15px;" onclick="window.open('https://github.com/Venchislav/ConvMoNET')">Travel to GitHub©</button>
+  </div>
+
+  <div class="footer">
+    <ul>
+      <li><p class="bruh">Venchislav</p></li>
+      <li><a href='https://twitter.com/venchisla75545'><img src='{{url_for("static", filename="images/x.svg")}}' width=25%></a></li>
+      <li><a href='https://github.com/googlecreativelab/quickdraw-dataset'><img src='{{url_for("static", filename="images/google.svg")}}' width=25%></a></li>
+      <li><h1 class="year">2024</h1></li>
+      <li><a href='https://github.com/Venchislav'><img src='{{url_for("static", filename="images/github.svg")}}' width=25%></a></li>
+      <li><a href='https://www.youtube.com/channel/UCFRGI3c4ltX-1CvnWBAnPAA'><img src='{{url_for("static", filename="images/yt.svg")}}' width=25%></a></li>
+      <li><p class="bruh">GitHub© Bozo</p></li>
+    </ul>
+  </div>
+  
+</body>
+</html>
