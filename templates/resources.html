@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="E:\ConvMoNET\static\styles\in_progress.css">
-    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/in_progress.css')}}">
+    <link rel="stylesheet" type="text/css" href="E:\ConvMoNET\static\styles\resources.css">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/resources.css')}}">
     
 <body>
     
@@ -22,10 +22,17 @@
   <div class="logo-div">
     <a href="/"><img src='{{url_for("static", filename="images/Logo.png")}}' width="15%" class="logo"></a><br>
 
-    <img src='{{url_for("static", filename="images/bulb.svg")}}' width=8% style="margin-top: 18px;">
-    <h1>IN PROGRESS</h1><br>
-    <h3>magic will be here a bit later</h3>
-    <button class="more" style="margin-bottom: 15px;" onclick="window.open('https://github.com/Venchislav/ConvMoNET')">Travel to GitHub©</button>
+    <img src='{{url_for("static", filename="images/drawing.svg")}}' width="5%"><br>
+
+    <h2 class="fun-fact">
+        ”ConvMonet” uses the following resources:<br>
+        Info Page Bulb - <a href="https://www.flaticon.com/free-icon/idea-bulb_7951888?term=doodle&page=1&position=12&origin=search&related_id=7951888">click me</a><br>
+        Drawing icon - <a href="https://www.flaticon.com/free-icon/father_2970224?term=drawing&related_id=2970224">click me</a><br>
+        404 skull - <a href="https://www.flaticon.com/free-icon/skull_2338375?term=doodle&page=1&position=91&origin=search&related_id=2338375">click me</a><br>
+        Rick A drawing by Dalle. M. - <a href="https://www.researchgate.net/figure/Dalle-M-2019-Rickroll-Digital-image_fig23_337000420">click me</a><br>
+
+        If You are the author and don't wont your property to be used here contact: okponponok23@gmail.com <img src='{{url_for("static", filename="images/peace.png")}}' width=2%>
+    </h2>
   </div>
 
   <div class="footer">

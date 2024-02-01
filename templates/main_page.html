@@ -7,7 +7,7 @@
     <link rel="stylesheet" type="text/css" href="E:\ConvMoNET\static\styles\main_page.css">
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/main_page.css')}}">
     
-<body>
+<body onload="fun_fact()">
     
   <div class="navbar">
     <ul>
@@ -15,6 +15,7 @@
       <li><a href='/anim3'>ANIM-3</a></li>
       <li><a href='/generat_e'>GENERATE</a></li>
       <li><a href='/info'>INFO</a></li>
+      <li><a href='/resources'>RESOURCES</a></li>
     </ul>
   </div>
 
@@ -28,7 +29,7 @@
     <img src='{{url_for("static", filename="images/drawing.svg")}}' width="5%"><br>
 
     <button class="more" onclick="window.open('https://github.com/Venchislav/ConvMoNET','_blank')">Explore On <br> GitHub©</button><br>
-    <h2 class="fun-fact">
+    <h2 class="fun-fact" id="fun-fact">
       Fun fact: Here's no fun fact ¯\_(ツ)_/¯
     </h2>
   </div>
@@ -44,6 +45,8 @@
       <li><p class="bruh">GitHub© Bozo</p></li>
     </ul>
   </div>
+
+  <script src='{{url_for("static", filename="scripts/main_page.js")}}'></script>
   
 </body>
 </html>

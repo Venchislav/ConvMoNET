@@ -10,7 +10,22 @@
 </head>
 
 <body>
-	<h1>GUESSO</h1>
+	<div class="navbar">
+		<ul>
+		  <li><a href='/guesso'>GUESSO</a></li>
+		  <li><a href='/anim3'>ANIM-3</a></li>
+		  <li><a href='/generat_e'>GENERATE</a></li>
+		  <li><a href='/info'>INFO</a></li>
+		  <li><a href='/resources'>RESOURCES</a></li>
+		</ul>
+	  </div>
+	
+	  <div class="logo-div">
+		<a href="/"><img src='{{url_for("static", filename="images/Logo.png")}}' width="15%" class="logo"></a><br>
+	
+		<img src='{{url_for("static", filename="images/drawing.svg")}}' width="5%"><br>
+	  </div>
+	<h1 style="color: black">GUESSO</h1>
 	<div class="container">
 		<div class="canvas-div">
 			<canvas id="canvas" width="200px" height="200px"></canvas>
@@ -27,6 +42,18 @@
 			</div>
 		</div>
 	</div>
+
+	<div class="footer">
+		<ul>
+		  <li><p class="bruh">Venchislav</p></li>
+		  <li><a href='https://twitter.com/venchisla75545'><img src='{{url_for("static", filename="images/x.svg")}}' width=25%></a></li>
+		  <li><a href='https://github.com/googlecreativelab/quickdraw-dataset'><img src='{{url_for("static", filename="images/google.svg")}}' width=25%></a></li>
+		  <li><h1 class="year">2024</h1></li>
+		  <li><a href='https://github.com/Venchislav'><img src='{{url_for("static", filename="images/github.svg")}}' width=25%></a></li>
+		  <li><a href='https://www.youtube.com/channel/UCFRGI3c4ltX-1CvnWBAnPAA'><img src='{{url_for("static", filename="images/yt.svg")}}' width=25%></a></li>
+		  <li><p class="bruh">GitHub© Bozo</p></li>
+		</ul>
+	  </div>
 	<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/1.7.1/jquery.min.js'></script>
 	<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 	<script src="{{ url_for('static', filename='scripts/guesso.js')}}"></script>
