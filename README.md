@@ -48,3 +48,5 @@ Haystacks at Giverny - Claude Monet 1884<br>
 # Work In Progress...
 <img src='https://media.tenor.com/ipuTozw3PXsAAAAj/pixel-cat.gif'><br>
 <h1>Classifier works and first version of web-site is done!🎉🥳🎊</h1>
+UPD from 01.02.24 - I'll dive into GANs and generative nets so I'll be studying it for the project<br>
+If your property is used in project (stored in static/images) you can contact: okponponok23@gmail.com
