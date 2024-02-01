@@ -27,6 +27,24 @@ def guesso_render():
     return render_template('guesso_page.html')
 
 
+@app.route("/rick")
+def astley_easter():
+    return render_template('astley.html')
+
+
+@app.route("/anim3")
+def anim3():
+    return render_template('in_progress.html')
+
+
+@app.route("/generat_e")
+def generate():
+    return render_template('in_progress.html')
+
+@app.route("/resources")
+def resources():
+    return render_template('resources.html')
+
 @app.route("/guesso", methods=["POST", "GET"])
 def predict_digit():
     image = request.get_json(silent=True)['image'].split(",")[1]
