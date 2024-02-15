@@ -49,4 +49,15 @@ Haystacks at Giverny - Claude Monet 1884<br>
 <img src='https://media.tenor.com/TrZcpR0Kde8AAAAi/cat-meme-funny.gif'><br>
 <h1>Classifier works and first version of web-site is done!🎉🥳🎊</h1>
 UPD from 01.02.24 - I'll dive into GANs and generative nets so I'll be studying it for the project<br>
-If your property is used in project (stored in static/images) you can contact: okponponok23@gmail.com
+If your property is used in project (stored in static/images) you can contact: okponponok23@gmail.com<br>
+___
+UPD from 15.02.24:<br>
+**New Project Vision**<br>
+Animatisse section will be replaced with TUNER<br>
+___
+MEET THE TUNER!!!<br>
+TUNER uses Variational Autoencoder for image generation<br>
+Add smile, glasses, and other with TUNER<br>
+___
+Work in progress
+
