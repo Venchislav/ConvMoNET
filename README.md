@@ -61,4 +61,6 @@ Add smile, glasses, and other with TUNER<br>
 <img src='https://lh4.googleusercontent.com/pWwwcRABqAHUB9x3lse4ELHrIMEiJTs64Ry1vmzo0qR41F0eV5tPI_8uDWki15ogW-28lCgS_boLdxm0_5_xAdeM9k2iaiBAIGGJdALiwd1Q0m5ehCxmRDKt_K0a9b-phUl9TYXan4eDz050VGKvp5M'>
 ___
 Work in progress<br>
-<img src='https://i.imgflip.com/8g5t7x.jpg' width=50%>
+<img src='https://i.imgflip.com/8g5t7x.jpg' width=50%><br>
+<h1>UPD from 20.02.24:</h1>final project vision<h1><br>
+<h2>doodle generation will be replaced with painting generation</h2>. Art gallery with database will be added to share generated images. For image generation stable diffusion will be used.
