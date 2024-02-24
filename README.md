@@ -63,4 +63,8 @@ ___
 Work in progress<br>
 <img src='https://i.imgflip.com/8g5t7x.jpg' width=50%><br>
 <h1>UPD from 20.02.24:</h1>final project vision<h1><br>
-<h2>doodle generation will be replaced with painting generation</h2>. Art gallery with database will be added to share generated images. For image generation stable diffusion will be used.
+<h2>doodle generation will be replaced with painting generation</h2>. Art gallery with database will be added to share generated images. For image generation stable diffusion will be used. <br>
+___
+<h1>UPD from 24.02.24:</h1>
+<h2>Now I will dive into Machine Learning, Statistics and well all this stuff in order to destroy this "Black Box" effect.</h2> <br>
+<h3>So now it's a deep dive into ML</h3>
