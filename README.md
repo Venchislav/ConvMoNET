@@ -67,4 +67,7 @@ Work in progress<br>
 ___
 <h1>UPD from 24.02.24:</h1>
 <h2>Now I will dive into Machine Learning, Statistics and well all this stuff in order to destroy this "Black Box" effect.</h2> <br>
-<h3>So now it's a deep dive into ML</h3>
+<h3>So now it's a deep dive into ML</h3><br>
+<img src='https://yandex.ru/images/touch/search?img_url=https%3A%2F%2Fi.pinimg.com%2Foriginals%2Fd0%2F3d%2F4d%2Fd03d4d7afec539a921cc4e5b25062afb.jpg&lr=162057&pos=0&rpt=simage&source=tabbar&text=whiplash%20i%20wanna%20be%20one%20of%20the%20grates'><br>
+___
+As Neiman in "Whiplash" said: "I want to be one of the grates"
